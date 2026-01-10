@@ -44,7 +44,7 @@ packages:
   thermostat-room-0: !include { file: confs/thermostat-room.yaml, vars: { room_identifier: 0, room_name: "Room 1" } }
   #thermostat-room-1: !include { file: confs/thermostat-room.yaml, vars: { room_identifier: 1, room_name: "Room 2" } }
   remote_package:
-    url: https://github.com/gekkekoe/esphome-ecodan-remote-thermostat
+    url: https://github.com/desaster77-cloud/esphome-ecodan-remote-thermostat
     ref: main
     refresh: always
     files: [
