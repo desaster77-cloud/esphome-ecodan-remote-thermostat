@@ -49,7 +49,7 @@ packages:
     refresh: always
     files: [
             confs/base.yaml,
-            confs/esp32s3.yaml,
+            confs/esp32c6.yaml,
             #confs/esp32s3-led.yaml,    # atom s3 status leds
             ## enable label language file
             confs/ecodan-labels-en.yaml,
