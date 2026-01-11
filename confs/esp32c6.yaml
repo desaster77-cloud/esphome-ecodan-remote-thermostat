@@ -3,12 +3,15 @@ esphome:
   friendly_name: ${friendlyName}
   platformio_options:
     board_build.flash_mode: dio
-
+    
 esp32:
-  board: esp32dev
-  variant: esp32
+  board: esp32-c6-devkitc-1
   framework:
-        type: esp-idf
+    type: esp-idf
+    version: recommended
+    # Custom sdkconfig options
+    sdkconfig_options:
+      COMPILER_OPTIMIZATION_SIZE: y
 
 uart:
   id: uart_ecodan
