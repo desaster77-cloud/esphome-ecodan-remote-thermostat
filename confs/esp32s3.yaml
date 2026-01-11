@@ -5,14 +5,14 @@ esphome:
     board_build.flash_mode: dio
 
 esp32:
-  board: esp32-c6
+  board: esp32-s3-devkitc-1
   framework:
     type: esp-idf
     version: recommended
     # Custom sdkconfig options
     sdkconfig_options:
       COMPILER_OPTIMIZATION_SIZE: y
-
+      
 uart:
   id: uart_ecodan
   rx_pin:
